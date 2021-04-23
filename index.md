@@ -40,10 +40,10 @@ El resultado final sera la obtencion de un archivo para su analisis:
 
 ### Interpretacion
 
-Para poder darle sentido a la informacion es necesario contrar con los catalogos y descriptores los cuales se descargan automaticamente en la carpeta covid19
+Para poder darle sentido a la informacion es necesario contrar con los catalogos y descriptores los cuales se descargan automaticamente en la carpeta covid19:
 
-Catalogos.xlsx
-Descriptores.xlsx
+- Catalogos.xlsx
+- Descriptores.xlsx
 
 ### Support or Contact
 
