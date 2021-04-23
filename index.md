@@ -27,11 +27,23 @@ Docker creara la imagen en base al archivo dockerfile proporcionado, una vez ter
 ```markdown
 docker run --rm -it  benjalm21/covid19
 
+```
 NOTA: si queremos que el contenedor exista aun despues de terminar el proceso quitamos la opcion --rm
 
-```
+Al ejecutar este comando se ejecutara un contenedor con las caracteristicas especificadas en el dockerfile.
 
-Al ejecutar este comando se efectuara el 
+### Resultado Final
+
+El resultado final sera la obtencion de un archivo para su analisis:
+
+- final_defunciones_diabetes_covid.csv
+
+### Interpretacion
+
+Para poder darle sentido a la informacion es necesario contrar con los catalogos y descriptores los cuales se descargan automaticamente en la carpeta covid19
+
+Catalogos.xlsx
+Descriptores.xlsx
 
 ### Support or Contact
 
