@@ -7,13 +7,10 @@ WORKDIR /root
 
 RUN  apt-get -y update && \
      apt-get install -yq unzip curl csvkit
-	
-RUN curl -O http://datosabiertos.salud.gob.mx/gobmx/salud/datos_abiertos/datos_abiertos_covid19.zip
-    unzip datos_abiertos_covid19.zip && \
-    rm datos_abiertos_covid19.zip && \
-	
-	
-	
-	
-	
-CMD ["bash"]
+	 
+COPY covid19.sh covid19.sh
+
+
+ENTRYPOINT ["bash"]
+
+CMD ["covid19.sh"]
